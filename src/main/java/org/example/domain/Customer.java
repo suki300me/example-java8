@@ -1,8 +1,9 @@
 package org.example.domain;
 
-import io.ebean.annotation.DbArray;
-import io.ebean.annotation.DbComment;
-import org.example.domain.finder.CustomerFinder;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -13,10 +14,11 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+
+import org.example.domain.finder.CustomerFinder;
+
+import io.ebean.annotation.DbArray;
+import io.ebean.annotation.DbComment;
 
 /**
  * Customer entity bean.

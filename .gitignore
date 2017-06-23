@@ -15,3 +15,9 @@ log/
 *.ipr
 *.iws
 .idea/
+src/main/java/.DS_Store
+src/main/java/org/.DS_Store
+src/main/.DS_Store
+src/.DS_Store
+src/main/java/org/example/.DS_Store
+.DS_Store
